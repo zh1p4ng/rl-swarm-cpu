@@ -2,6 +2,8 @@
 
 set -euo pipefail
 
+# 禁用 GPU，强制使用 CPU
+export CUDA_VISIBLE_DEVICES=""
 # General arguments
 ROOT=$PWD
 
